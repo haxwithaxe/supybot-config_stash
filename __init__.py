@@ -20,7 +20,7 @@ __author__ = 'haxwithaxe'
 __contributors__ = {}
 
 # This is a url where the most recent plugin package can be downloaded.
-__url__ = '' # 'http://supybot.com/Members/yourname/Config_stash/download'
+__url__ = 'https://github.com/haxwithaxe/supybot-config_stash'
 
 import config
 import plugin
@@ -33,8 +33,5 @@ if world.testing:
 
 Class = plugin.Class
 configure = config.configure
-
-
-
 
 # vim:set shiftwidth=4 tabstop=4 expandtab textwidth=79:

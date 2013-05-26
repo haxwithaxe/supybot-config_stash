@@ -55,17 +55,18 @@ class Poller(threading.Thread):
         return True
         
 
-class Config_stash(callbacks.Plugin):
+class configstash(callbacks.Plugin):
     """Add the help for "@plugin help Config_stash" here
     This should describe *how* to use this plugin."""
     threaded = True
     def __init__(self, irc):
-        self.__parent = super(Config_stash, self)
+        self.__parent = super(configstash, self)
         self.__parent.__init__(irc)
         self.poller = Poller(self)
+        print('ConfigStash.__init__')
 
 
-Class = Config_stash
+Class = configstash
 
 
 # vim:set shiftwidth=4 softtabstop=4 expandtab textwidth=79:
