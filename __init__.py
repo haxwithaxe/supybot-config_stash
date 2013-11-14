@@ -1,10 +1,7 @@
-###
-# Copyright (c) 2013, haxwithaxe
-# All rights reserved.
-###
-
-"""
-commits config changes to a git repo and pushes them to a repo server
+""" commits config changes to a git repo and pushes them to a repo server
+Copyright (c) 2013, haxwithaxe
+All rights reserved.
+See LICENSE file.
 """
 
 import supybot
