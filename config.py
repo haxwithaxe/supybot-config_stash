@@ -1,7 +1,8 @@
-###
-# Copyright (c) 2013, haxwithaxe
-# All rights reserved.
-###
+'''
+Copyright (c) 2013, haxwithaxe
+All rights reserved.
+See LICENSE file.
+'''
 
 import supybot.conf as conf
 import supybot.registry as registry

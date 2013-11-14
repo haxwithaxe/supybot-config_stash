@@ -1,7 +1,6 @@
 ###
 # Copyright (c) 2013, haxwithaxe
 # All rights reserved.
-# FIXME: Add MIT license
 ###
 
 """
@@ -11,9 +10,11 @@ commits config changes to a git repo and pushes them to a repo server
 import supybot
 import supybot.world as world
 
-__version__ = "0.1"
+__version__ = '0.1'
 
 __author__ = 'haxwithaxe'
+
+__license__ = 'GPLv3'
 
 # This is a dictionary mapping supybot.Author instances to lists of
 # contributions.
