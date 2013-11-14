@@ -1,15 +1,12 @@
-'''
+"""
 Copyright (c) 2013, haxwithaxe
 All rights reserved.
 See LICENSE file.
-'''
+"""
 
-import supybot.utils as utils
+from supybot import  utils, plugins, ircutils, callbacks
 from supybot.commands import *
 from supybot.registry import *
-import supybot.plugins as plugins
-import supybot.ircutils as ircutils
-import supybot.callbacks as callbacks
 import os
 import threading
 import git
@@ -67,6 +64,5 @@ class configstash(callbacks.Plugin):
 
 
 Class = configstash
-
 
 # vim:set shiftwidth=4 softtabstop=4 expandtab textwidth=79:

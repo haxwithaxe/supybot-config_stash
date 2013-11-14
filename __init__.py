@@ -7,18 +7,18 @@ See LICENSE file.
 import supybot
 import supybot.world as world
 
-__version__ = '0.1'
+__version__ = "0.1"
 
-__author__ = 'haxwithaxe'
+__author__ = "haxwithaxe"
 
-__license__ = 'GPLv3'
+__license__ = "GPLv3"
 
 # This is a dictionary mapping supybot.Author instances to lists of
 # contributions.
 __contributors__ = {}
 
 # This is a url where the most recent plugin package can be downloaded.
-__url__ = 'https://github.com/haxwithaxe/supybot-config_stash'
+__url__ = "https://github.com/haxwithaxe/supybot-config_stash"
 
 import config
 import plugin
